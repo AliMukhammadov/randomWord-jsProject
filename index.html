@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <select name="" id="level">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>  
+
+            <h2 id="random-text">Awesome</h2>
+
+            <input id="word-input" type="text" autocomplete="off" placeholder="">
+
+            <br>    
+
+            <span id="time">Time: 0</span>
+
+            <h3>
+                Score:
+                <span id="score">0</span>
+            </h3>
+            <h3>
+                Highscore:
+                <span id="highscore">0</span>
+            </h3>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
